@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": true
+    "noImplicitAny": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "lib": ["es2017"]
   },
   "include": ["src"]
 }

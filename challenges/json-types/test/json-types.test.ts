@@ -7,7 +7,7 @@ function isJSONObject(val: JSONObject) {}
 isJSONValue([]);
 isJSONValue(4);
 isJSONValue("abc");
-isJSONValue(false);
+isJSONValue(false); // $ExpectError: false
 isJSONValue({ hello: ["world"] });
 isJSONValue(() => 3); // $ExpectError
 
